@@ -44,7 +44,7 @@ return packer.startup(function(use)
   use { "windwp/nvim-autopairs", commit = "4fc96c8f3df89b6d23e5092d31c866c53a346347" } -- Autopairs, integrates with both cmp and treesitter
   use { "ahmedkhalf/project.nvim", commit = "628de7e433dd503e782831fe150bb750e56e55d6" }
   use { "goolord/alpha-nvim", commit = "0bb6fc0646bcd1cdb4639737a1cee8d6e08bcc31" }
-  use { "nvim-tree/nvim-tree.lua" }
+  use { "nvim-tree/nvim-tree.lua", commit = "c7639482a1598f4756798df1b2d72f79fe5bb34f" }
   use { "nvim-tree/nvim-web-devicons"}
 
 	-- Colorschemes
@@ -61,11 +61,11 @@ return packer.startup(function(use)
     })
   end,}
         -- Treesitter
-  use { "nvim-treesitter/nvim-treesitter", commit = "226c1475a46a2ef6d840af9caa0117a439465500",}
+  use { "nvim-treesitter/nvim-treesitter", commit = "e1e3108cd23d7f967842261bd66126b6734d8907"}
         -- Airplane
   use { "vim-airline/vim-airline" }
 	-- Git
-  use { "lewis6991/gitsigns.nvim" }
+  use { "lewis6991/gitsigns.nvim", commit = "1ef74b546732f185d0f806860fa5404df7614f28" }
         -- Comment
   use { "numToStr/Comment.nvim" }
 
