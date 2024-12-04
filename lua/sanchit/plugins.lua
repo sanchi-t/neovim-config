@@ -50,6 +50,8 @@ return packer.startup(function(use)
 	-- Colorschemes
   use { "folke/tokyonight.nvim", commit = "66bfc2e8f754869c7b651f3f47a2ee56ae557764" }
   use { "morhetz/gruvbox"}
+        -- Cmp 
+  use { "hrsh7th/nvim-cmp", commit = "b0dff0ec4f2748626aae13f011d1a47071fe9abc" } -- The completion plugin
         -- Telescope
   use { "nvim-telescope/telescope.nvim", tag = "0.1.5",  requires = { {"nvim-lua/plenary.nvim"}, {'BurntSushi/ripgrep'},{'sharkdp/fd'}, }}
   use { "princejoogie/dir-telescope.nvim", requires = {"nvim-telescope/telescope.nvim"}, config = function()

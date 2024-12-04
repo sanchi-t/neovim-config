@@ -49,8 +49,8 @@ local function save_profiles(threshold)
 end
 
 time([[Luarocks path setup]], true)
-local package_path_str = "/home/sanchit/.cache/nvim/packer_hererocks/2.1.1692716794/share/lua/5.1/?.lua;/home/sanchit/.cache/nvim/packer_hererocks/2.1.1692716794/share/lua/5.1/?/init.lua;/home/sanchit/.cache/nvim/packer_hererocks/2.1.1692716794/lib/luarocks/rocks-5.1/?.lua;/home/sanchit/.cache/nvim/packer_hererocks/2.1.1692716794/lib/luarocks/rocks-5.1/?/init.lua"
-local install_cpath_pattern = "/home/sanchit/.cache/nvim/packer_hererocks/2.1.1692716794/lib/lua/5.1/?.so"
+local package_path_str = "/home/sanchits/.cache/nvim/packer_hererocks/2.1.1725453128/share/lua/5.1/?.lua;/home/sanchits/.cache/nvim/packer_hererocks/2.1.1725453128/share/lua/5.1/?/init.lua;/home/sanchits/.cache/nvim/packer_hererocks/2.1.1725453128/lib/luarocks/rocks-5.1/?.lua;/home/sanchits/.cache/nvim/packer_hererocks/2.1.1725453128/lib/luarocks/rocks-5.1/?/init.lua"
+local install_cpath_pattern = "/home/sanchits/.cache/nvim/packer_hererocks/2.1.1725453128/lib/lua/5.1/?.so"
 if not string.find(package.path, package_path_str, 1, true) then
   package.path = package.path .. ';' .. package_path_str
 end
@@ -76,88 +76,93 @@ time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["Comment.nvim"] = {
     loaded = true,
-    path = "/home/sanchit/.local/share/nvim/site/pack/packer/start/Comment.nvim",
+    path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
   ["alpha-nvim"] = {
     loaded = true,
-    path = "/home/sanchit/.local/share/nvim/site/pack/packer/start/alpha-nvim",
+    path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/alpha-nvim",
     url = "https://github.com/goolord/alpha-nvim"
   },
   ["dir-telescope.nvim"] = {
     config = { "\27LJ\2\nc\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\3\17show_preview\2\14no_ignore\2\vhidden\1\nsetup\18dir-telescope\frequire\0" },
     loaded = true,
-    path = "/home/sanchit/.local/share/nvim/site/pack/packer/start/dir-telescope.nvim",
+    path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/dir-telescope.nvim",
     url = "https://github.com/princejoogie/dir-telescope.nvim"
   },
   fd = {
     loaded = true,
-    path = "/home/sanchit/.local/share/nvim/site/pack/packer/start/fd",
+    path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/fd",
     url = "https://github.com/sharkdp/fd"
   },
   ["gitsigns.nvim"] = {
     loaded = true,
-    path = "/home/sanchit/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
     url = "https://github.com/lewis6991/gitsigns.nvim"
   },
   gruvbox = {
     loaded = true,
-    path = "/home/sanchit/.local/share/nvim/site/pack/packer/start/gruvbox",
+    path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/gruvbox",
     url = "https://github.com/morhetz/gruvbox"
   },
   ["nvim-autopairs"] = {
     loaded = true,
-    path = "/home/sanchit/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
+    path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
+  },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/nvim-cmp",
+    url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
-    path = "/home/sanchit/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
+    path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
     url = "https://github.com/nvim-tree/nvim-tree.lua"
   },
   ["nvim-treesitter"] = {
     loaded = true,
-    path = "/home/sanchit/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
   ["nvim-web-devicons"] = {
     loaded = true,
-    path = "/home/sanchit/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
+    path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
-    path = "/home/sanchit/.local/share/nvim/site/pack/packer/start/packer.nvim",
+    path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
   ["plenary.nvim"] = {
     loaded = true,
-    path = "/home/sanchit/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
   ["project.nvim"] = {
     loaded = true,
-    path = "/home/sanchit/.local/share/nvim/site/pack/packer/start/project.nvim",
+    path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/project.nvim",
     url = "https://github.com/ahmedkhalf/project.nvim"
   },
   ripgrep = {
     loaded = true,
-    path = "/home/sanchit/.local/share/nvim/site/pack/packer/start/ripgrep",
+    path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/ripgrep",
     url = "https://github.com/BurntSushi/ripgrep"
   },
   ["telescope.nvim"] = {
     loaded = true,
-    path = "/home/sanchit/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["tokyonight.nvim"] = {
     loaded = true,
-    path = "/home/sanchit/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
   },
   ["vim-airline"] = {
     loaded = true,
-    path = "/home/sanchit/.local/share/nvim/site/pack/packer/start/vim-airline",
+    path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/vim-airline",
     url = "https://github.com/vim-airline/vim-airline"
   }
 }
