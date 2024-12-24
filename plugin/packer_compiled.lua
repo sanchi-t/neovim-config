@@ -84,12 +84,6 @@ _G.packer_plugins = {
     path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/alpha-nvim",
     url = "https://github.com/goolord/alpha-nvim"
   },
-  ["dir-telescope.nvim"] = {
-    config = { "\27LJ\2\nc\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\3\17show_preview\2\14no_ignore\2\vhidden\1\nsetup\18dir-telescope\frequire\0" },
-    loaded = true,
-    path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/dir-telescope.nvim",
-    url = "https://github.com/princejoogie/dir-telescope.nvim"
-  },
   fd = {
     loaded = true,
     path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/fd",
@@ -150,6 +144,11 @@ _G.packer_plugins = {
     path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/ripgrep",
     url = "https://github.com/BurntSushi/ripgrep"
   },
+  ["telescope-file-browser.nvim"] = {
+    loaded = true,
+    path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/telescope-file-browser.nvim",
+    url = "https://github.com/nvim-telescope/telescope-file-browser.nvim"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/home/sanchits/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -168,10 +167,6 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Config for: dir-telescope.nvim
-time([[Config for dir-telescope.nvim]], true)
-try_loadstring("\27LJ\2\nc\0\0\3\0\4\0\a6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\3\0B\0\2\1K\0\1\0\1\0\3\17show_preview\2\14no_ignore\2\vhidden\1\nsetup\18dir-telescope\frequire\0", "config", "dir-telescope.nvim")
-time([[Config for dir-telescope.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
