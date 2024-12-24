@@ -51,7 +51,6 @@ keymap("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 
 -- telescope keymappings
 local builtin = require('telescope.builtin')
-local dir_telescope = require('telescope').extensions.dir
 vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
 vim.keymap.set('n', '<leader>fg', builtin.live_grep, {})
 vim.keymap.set('n', '<leader>fb', builtin.buffers, {})

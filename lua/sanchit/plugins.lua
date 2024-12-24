@@ -54,14 +54,7 @@ return packer.startup(function(use)
   use { "hrsh7th/nvim-cmp", commit = "b0dff0ec4f2748626aae13f011d1a47071fe9abc" } -- The completion plugin
         -- Telescope
   use { "nvim-telescope/telescope.nvim", tag = "0.1.5",  requires = { {"nvim-lua/plenary.nvim"}, {'BurntSushi/ripgrep'},{'sharkdp/fd'}, }}
-  use { "princejoogie/dir-telescope.nvim", requires = {"nvim-telescope/telescope.nvim"}, config = function()
-    require("dir-telescope").setup({
-      -- these are the default options set
-      hidden = false,
-      no_ignore = true,
-      show_preview = true,
-    })
-  end,}
+  use { "nvim-telescope/telescope-file-browser.nvim", requires = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }}
         -- Treesitter
   use { "nvim-treesitter/nvim-treesitter", commit = "e1e3108cd23d7f967842261bd66126b6734d8907"}
         -- Airplane
